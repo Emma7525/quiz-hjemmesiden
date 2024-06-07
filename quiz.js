@@ -77,7 +77,7 @@ function showQuestion(questionIndex) {
     const questionContainer = document.getElementById('question-container');
     const questionNumber = document.getElementById('question-number');
     questionContainer.innerHTML = '';
-    questionNumber.textContent = `Question ${questionIndex + 1}/${quizQuestions.length}`;
+    questionNumber.textContent = `Spørgsmål ${questionIndex + 1}/${quizQuestions.length}`;
 
     const questionElement = document.createElement('div');
     questionElement.classList.add('question');
@@ -140,7 +140,7 @@ function showResult() {
 
     const resultContainer = document.getElementById('result-container');
     resultContainer.style.display = 'block';
-    resultContainer.textContent = `You scored ${score} out of ${quizQuestions.length}`;
+    resultContainer.textContent = `Du scorede ${score} ud af ${quizQuestions.length} rigtige`;
 
     document.getElementById('next-button').style.display = 'none';
     document.getElementById('restart-button').style.display = 'block';

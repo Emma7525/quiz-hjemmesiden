@@ -1,56 +1,56 @@
 const quizQuestions = [
     {
-        question: "What is the capital of France?",
+        question: "Hvad er den gennemsnitlige alder, hvor unge i Danmark første gang prøver at drikke alkohol?",
         answers: [
-            { text: "Berlin", correct: false },
-            { text: "Madrid", correct: false },
-            { text: "Paris", correct: true },
-            { text: "Rome", correct: false }
+            { text: "12 år", correct: false },
+            { text: "17 år", correct: false },
+            { text: "14 år", correct: true },
+            { text: "18 år", correct: false }
         ]
     },
     {
-        question: "Who wrote 'To Kill a Mockingbird'?",
+        question: "Hvor mange unge føler sig presset til at drikke ca.",
         answers: [
-            { text: "Harper Lee", correct: true },
-            { text: "Mark Twain", correct: false },
-            { text: "Ernest Hemingway", correct: false },
-            { text: "F. Scott Fitzgerald", correct: false }
+            { text: "54%", correct: true },
+            { text: "20%", correct: false },
+            { text: "86%", correct: false },
+            { text: "37%", correct: false }
         ]
     },
     {
-        question: "What is the largest planet in our Solar System?",
+        question: "Hvor mange unge drikker alkohol på ugentlig base ca?",
         answers: [
-            { text: "Earth", correct: false },
-            { text: "Jupiter", correct: true },
-            { text: "Mars", correct: false },
-            { text: "Saturn", correct: false }
+            { text: "40%", correct: false },
+            { text: "25%", correct: true },
+            { text: "5%", correct: false },
+            { text: "32%", correct: false }
         ]
     },
     {
-        question: "Which element does the chemical symbol 'O' represent?",
+        question: "Hvor mange unge dør hver månede grundet alkohol?",
         answers: [
-            { text: "Gold", correct: false },
-            { text: "Oxygen", correct: true },
-            { text: "Silver", correct: false },
-            { text: "Hydrogen", correct: false }
+            { text: "Ingen", correct: false },
+            { text: "1", correct: true },
+            { text: "4", correct: false },
+            { text: "2", correct: false }
         ]
     },
     {
-        question: "Who painted the Mona Lisa?",
+        question: "Hvilken procentdel af danske unge har prøvet at være fulde inden de fylder 16 år?",
         answers: [
-            { text: "Vincent van Gogh", correct: false },
-            { text: "Pablo Picasso", correct: false },
-            { text: "Leonardo da Vinci", correct: true },
-            { text: "Claude Monet", correct: false }
+            { text: "20%", correct: false },
+            { text: "8%", correct: false },
+            { text: "50%", correct: true },
+            { text: "75%", correct: false }
         ]
     },
     {
-        question: "What is the smallest prime number?",
+        question: "hvor mange unge vil have drik kultur hvor det okay at sige nej?",
         answers: [
-            { text: "0", correct: false },
-            { text: "1", correct: false },
-            { text: "2", correct: true },
-            { text: "3", correct: false }
+            { text: "34%", correct: false },
+            { text: "15%", correct: false },
+            { text: "88%", correct: true },
+            { text: "56%", correct: false }
         ]
     }
 ];
